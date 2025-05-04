@@ -28,15 +28,15 @@ class App extends Component {
                 <BrowserRouter>
                     <AnimatePresence>
                         <Switch>
-                            <Route path="/news_blogs/home">
+                            <Route path="/home">
                                 <Home />
                             </Route>
 
-                            <Route path="/news_blogs/about">
+                            <Route path="/about">
                                 <About />
                             </Route>
 
-                            <Route path="/news_blogs/contact">
+                            <Route path="/contact">
                                 <Contact />
                             </Route>
 
@@ -52,7 +52,7 @@ class App extends Component {
                                     </Route>
                                 )
                             })}
-                            <Redirect from="/" to="/news_blogs/home" />
+                            <Redirect from="/" to="/home" />
                         </Switch>
                     </AnimatePresence>
                 </BrowserRouter>

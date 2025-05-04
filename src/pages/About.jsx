@@ -21,7 +21,7 @@ const About = () => {
 				<Container flex center>
 					<Button
 						right
-						route="/news_blogs/contact"
+						route="/contact"
 						text="Get in touch"
 					/>
 				</Container>
