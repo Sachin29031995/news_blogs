@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/news_blogs/static/js/main.b607ba6d.chunk.js",
-    "main.js.map": "/news_blogs/static/js/main.b607ba6d.chunk.js.map",
+    "main.js": "/news_blogs/static/js/main.8babfb06.chunk.js",
+    "main.js.map": "/news_blogs/static/js/main.8babfb06.chunk.js.map",
     "runtime-main.js": "/news_blogs/static/js/runtime-main.2bd1e942.js",
     "runtime-main.js.map": "/news_blogs/static/js/runtime-main.2bd1e942.js.map",
     "static/js/2.4dbfe51a.chunk.js": "/news_blogs/static/js/2.4dbfe51a.chunk.js",
     "static/js/2.4dbfe51a.chunk.js.map": "/news_blogs/static/js/2.4dbfe51a.chunk.js.map",
     "index.html": "/news_blogs/index.html",
-    "precache-manifest.59e6c529c024e6b780329b8d0829cd07.js": "/news_blogs/precache-manifest.59e6c529c024e6b780329b8d0829cd07.js",
+    "precache-manifest.f54445e6da19068b4d82f44b033285a0.js": "/news_blogs/precache-manifest.f54445e6da19068b4d82f44b033285a0.js",
     "service-worker.js": "/news_blogs/service-worker.js",
     "static/js/2.4dbfe51a.chunk.js.LICENSE.txt": "/news_blogs/static/js/2.4dbfe51a.chunk.js.LICENSE.txt",
     "static/media/post_1.png": "/news_blogs/static/media/post_1.fae0e57f.png",
@@ -16,6 +16,6 @@
   "entrypoints": [
     "static/js/runtime-main.2bd1e942.js",
     "static/js/2.4dbfe51a.chunk.js",
-    "static/js/main.b607ba6d.chunk.js"
+    "static/js/main.8babfb06.chunk.js"
   ]
 }
