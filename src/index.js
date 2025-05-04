@@ -17,22 +17,10 @@ import theme from "./components/StyledComponents/Theme";
 
 import Posts from '../src/posts/Posts';
 
-// Google Analytics
-import ReactGA from "react-ga";
 
 class App extends Component {
 
     render () {
-
-        if(window.location.hostname !== "localhost") {
-            
-            // Google Analytics ID goes here.
-            let trackingId = "123";
-
-            ReactGA.initialize(trackingId);
-            ReactGA.pageview('/home');
-        }
-
 
         return (
             <ThemeProvider theme={theme}>
@@ -40,15 +28,15 @@ class App extends Component {
                 <BrowserRouter>
                     <AnimatePresence>
                         <Switch>
-                            <Route path="/home">
+                            <Route path="/news_blogs/home">
                                 <Home />
                             </Route>
 
-                            <Route path="/about">
+                            <Route path="/news_blogs/about">
                                 <About />
                             </Route>
 
-                            <Route path="/contact">
+                            <Route path="/news_blogs/contact">
                                 <Contact />
                             </Route>
 
@@ -64,7 +52,7 @@ class App extends Component {
                                     </Route>
                                 )
                             })}
-                            <Redirect from="/" to="/home" />
+                            <Redirect from="/" to="/news_blogs/home" />
                         </Switch>
                     </AnimatePresence>
                 </BrowserRouter>
